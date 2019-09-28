@@ -5,7 +5,7 @@ Hello World Spring Web Application
 2. Choose Web, Thymleaf and DevTool dependency for our project
 2. Open your IDE and import the generated project from Spring
 
-##Spring
+## Spring
 1. Create a Controller class in /src/main/java/rmit/rch/demo folder. This class will handle the routing stuff of the project
 ```
 @Controller
