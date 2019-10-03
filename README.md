@@ -20,7 +20,21 @@ public class HomeController {
     }
 }
 ``` 
-2. Create a simple HTML file for display in src/main/resources/static. 
+2. Create a simple HTML file (welcome.html) for display in src/main/resources/templates.
+```
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Welcome to the tutorial</h1>
+    <h1>If you reach this stage. Welcome to Spring</h1>
+</body>
+</html>
+```
 3. Adding the following line in application.properties file
 ```
 spring.thymeleaf.template-loader-path: classpath:/templates
